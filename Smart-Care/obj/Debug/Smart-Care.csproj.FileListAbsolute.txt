@@ -1,0 +1,64 @@
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\bin\Debug\Smart-Care.exe.config
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\bin\Debug\Smart-Care.exe
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\bin\Debug\Smart-Care.pdb
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart-Care.csproj.AssemblyReference.cache
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart_Care.admin_account_create.resources
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart_Care.admin_login.resources
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart_Care.Dashboard.resources
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart_Care.Properties.Resources.resources
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart-Care.csproj.GenerateResource.cache
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart-Care.csproj.CoreCompileInputs.cache
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart-Care.exe
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart-Care.pdb
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart_Care.doctor_assign.resources
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart_Care.Smartcare.resources
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart_Care.Doctor_login.resources
+C:\Users\infob\Desktop\Fall\Final Marge\Smart-Care\Smart-Care\obj\Debug\Smart_Care.D_Login.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\bin\Debug\Smart-Care.exe.config
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\bin\Debug\Smart-Care.exe
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\bin\Debug\Smart-Care.pdb
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart-Care.csproj.AssemblyReference.cache
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart_Care.admin_account_create.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart_Care.admin_login.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart_Care.D_Login.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart_Care.Dashboard.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart_Care.doctor_assign.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart_Care.Doctor_login.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart_Care.Smartcare.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart_Care.Properties.Resources.resources
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart-Care.csproj.GenerateResource.cache
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart-Care.csproj.CoreCompileInputs.cache
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart-Care.exe
+C:\Users\infob\Desktop\Fall\Safe\Smart-Care\Smart-Care\obj\Debug\Smart-Care.pdb
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart-Care.csproj.AssemblyReference.cache
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart_Care.admin_account_create.resources
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart_Care.admin_login.resources
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart_Care.D_Login.resources
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart_Care.Dashboard.resources
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart_Care.doctor_assign.resources
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart_Care.Doctor_login.resources
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart_Care.Smartcare.resources
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart_Care.Properties.Resources.resources
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart-Care.csproj.GenerateResource.cache
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart-Care.csproj.CoreCompileInputs.cache
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart-Care.exe
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\obj\Debug\Smart-Care.pdb
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\bin\Debug\Smart-Care.exe.config
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\bin\Debug\Smart-Care.exe
+C:\Users\infob\Desktop\Fall\Deploy\11-1-26\Smart-Care\bin\Debug\Smart-Care.pdb
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\bin\Debug\Smart-Care.exe.config
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\bin\Debug\Smart-Care.exe
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\bin\Debug\Smart-Care.pdb
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart-Care.csproj.AssemblyReference.cache
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart_Care.admin_account_create.resources
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart_Care.admin_login.resources
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart_Care.D_Login.resources
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart_Care.Dashboard.resources
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart_Care.doctor_assign.resources
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart_Care.Doctor_login.resources
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart_Care.Smartcare.resources
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart_Care.Properties.Resources.resources
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart-Care.csproj.GenerateResource.cache
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart-Care.csproj.CoreCompileInputs.cache
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart-Care.exe
+C:\Users\infob\Desktop\Fall\Deploy\SmartDB\Smart-Care\obj\Debug\Smart-Care.pdb
