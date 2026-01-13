@@ -51,7 +51,7 @@ namespace Smart_Care
 
                         if (found == 1)
                         {
-                            Doctor_login newdctr = new Doctor_login();
+                            Doctor_login newdctr = new Doctor_login(id);
                             newdctr.Show();
                             this.Hide();
                         }

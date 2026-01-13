@@ -35,5 +35,12 @@ namespace Smart_Care
             doctorlogin.Show();
             this.Hide();
         }
+
+        private void bck_Click(object sender, EventArgs e)
+        {
+            Homepage bck = new Homepage();
+            bck.Show();
+            this.Hide();
+        }
     }
 }

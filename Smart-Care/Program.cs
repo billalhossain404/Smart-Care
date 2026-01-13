@@ -16,7 +16,7 @@ namespace Smart_Care
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Smartcare());
+            Application.Run(new Homepage());
         }
     }
 }

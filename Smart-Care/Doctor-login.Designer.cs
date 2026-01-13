@@ -37,6 +37,8 @@
             this.totalpatient = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.dctrname = new System.Windows.Forms.Label();
+            this.drname = new System.Windows.Forms.Label();
+            this.drsep = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dctrimg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dctrdatagrid)).BeginInit();
             this.dctrpan.SuspendLayout();
@@ -44,19 +46,21 @@
             // 
             // dctrimg
             // 
+            this.dctrimg.Image = ((System.Drawing.Image)(resources.GetObject("dctrimg.Image")));
             this.dctrimg.Location = new System.Drawing.Point(17, 15);
             this.dctrimg.Name = "dctrimg";
-            this.dctrimg.Size = new System.Drawing.Size(282, 276);
+            this.dctrimg.Size = new System.Drawing.Size(246, 247);
+            this.dctrimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dctrimg.TabIndex = 7;
             this.dctrimg.TabStop = false;
             // 
             // patientlist
             // 
             this.patientlist.AutoSize = true;
-            this.patientlist.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.patientlist.BackColor = System.Drawing.Color.SkyBlue;
             this.patientlist.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.patientlist.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.patientlist.Location = new System.Drawing.Point(11, 331);
+            this.patientlist.Location = new System.Drawing.Point(12, 321);
             this.patientlist.Name = "patientlist";
             this.patientlist.Size = new System.Drawing.Size(162, 35);
             this.patientlist.TabIndex = 6;
@@ -64,13 +68,13 @@
             // 
             // dctrdatagrid
             // 
-            this.dctrdatagrid.BackgroundColor = System.Drawing.Color.SteelBlue;
+            this.dctrdatagrid.BackgroundColor = System.Drawing.Color.CadetBlue;
             this.dctrdatagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dctrdatagrid.Location = new System.Drawing.Point(-1, 369);
+            this.dctrdatagrid.Location = new System.Drawing.Point(12, 369);
             this.dctrdatagrid.Name = "dctrdatagrid";
             this.dctrdatagrid.RowHeadersWidth = 51;
             this.dctrdatagrid.RowTemplate.Height = 24;
-            this.dctrdatagrid.Size = new System.Drawing.Size(1331, 382);
+            this.dctrdatagrid.Size = new System.Drawing.Size(1305, 363);
             this.dctrdatagrid.TabIndex = 5;
             // 
             // dctrpanname
@@ -87,7 +91,7 @@
             // 
             this.dctrpan.Controls.Add(this.totalpatient);
             this.dctrpan.Controls.Add(this.dctrpanname);
-            this.dctrpan.Location = new System.Drawing.Point(860, 164);
+            this.dctrpan.Location = new System.Drawing.Point(1012, 180);
             this.dctrpan.Name = "dctrpan";
             this.dctrpan.Size = new System.Drawing.Size(257, 127);
             this.dctrpan.TabIndex = 9;
@@ -118,11 +122,34 @@
             this.dctrname.BackColor = System.Drawing.Color.Transparent;
             this.dctrname.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dctrname.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.dctrname.Location = new System.Drawing.Point(318, 32);
+            this.dctrname.Location = new System.Drawing.Point(286, 35);
             this.dctrname.Name = "dctrname";
             this.dctrname.Size = new System.Drawing.Size(79, 23);
             this.dctrname.TabIndex = 11;
             this.dctrname.Text = "Name : ";
+            this.dctrname.Click += new System.EventHandler(this.dctrname_Click);
+            // 
+            // drname
+            // 
+            this.drname.AutoSize = true;
+            this.drname.BackColor = System.Drawing.Color.Transparent;
+            this.drname.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drname.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.drname.Location = new System.Drawing.Point(301, 88);
+            this.drname.Name = "drname";
+            this.drname.Size = new System.Drawing.Size(0, 38);
+            this.drname.TabIndex = 12;
+            // 
+            // drsep
+            // 
+            this.drsep.AutoSize = true;
+            this.drsep.BackColor = System.Drawing.Color.Transparent;
+            this.drsep.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drsep.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.drsep.Location = new System.Drawing.Point(301, 166);
+            this.drsep.Name = "drsep";
+            this.drsep.Size = new System.Drawing.Size(0, 38);
+            this.drsep.TabIndex = 13;
             // 
             // Doctor_login
             // 
@@ -132,6 +159,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1329, 744);
+            this.Controls.Add(this.drsep);
+            this.Controls.Add(this.drname);
             this.Controls.Add(this.dctrname);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dctrimg);
@@ -161,5 +190,7 @@
         private System.Windows.Forms.Panel totalpatient;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label dctrname;
+        private System.Windows.Forms.Label drname;
+        private System.Windows.Forms.Label drsep;
     }
 }

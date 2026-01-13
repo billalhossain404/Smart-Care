@@ -36,6 +36,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Madmin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.bck = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -122,6 +123,19 @@
             this.label1.Text = "Welcome to Our Smar-Care";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // bck
+            // 
+            this.bck.BackColor = System.Drawing.Color.DarkGray;
+            this.bck.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bck.ForeColor = System.Drawing.Color.Black;
+            this.bck.Location = new System.Drawing.Point(910, 584);
+            this.bck.Name = "bck";
+            this.bck.Size = new System.Drawing.Size(115, 47);
+            this.bck.TabIndex = 14;
+            this.bck.Text = "Back";
+            this.bck.UseVisualStyleBackColor = false;
+            this.bck.Click += new System.EventHandler(this.bck_Click);
+            // 
             // Smartcare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -129,6 +143,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1022, 633);
+            this.Controls.Add(this.bck);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.Mnurse);
             this.Controls.Add(this.pictureBox2);
@@ -155,6 +170,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Madmin;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button bck;
     }
 }
 

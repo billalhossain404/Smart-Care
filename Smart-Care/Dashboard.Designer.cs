@@ -35,7 +35,6 @@
             this.dbexit = new System.Windows.Forms.Button();
             this.dbambulance = new System.Windows.Forms.Button();
             this.dbpayment = new System.Windows.Forms.Button();
-            this.dbappointment = new System.Windows.Forms.Button();
             this.bdnurse = new System.Windows.Forms.Button();
             this.dbdctr = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -68,7 +67,6 @@
             this.panel2.Controls.Add(this.dbexit);
             this.panel2.Controls.Add(this.dbambulance);
             this.panel2.Controls.Add(this.dbpayment);
-            this.panel2.Controls.Add(this.dbappointment);
             this.panel2.Controls.Add(this.bdnurse);
             this.panel2.Controls.Add(this.dbdctr);
             this.panel2.Location = new System.Drawing.Point(1, 106);
@@ -80,7 +78,7 @@
             // 
             this.dbexit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.dbexit.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dbexit.Location = new System.Drawing.Point(73, 472);
+            this.dbexit.Location = new System.Drawing.Point(73, 452);
             this.dbexit.Name = "dbexit";
             this.dbexit.Size = new System.Drawing.Size(222, 48);
             this.dbexit.TabIndex = 8;
@@ -92,7 +90,7 @@
             // 
             this.dbambulance.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.dbambulance.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dbambulance.Location = new System.Drawing.Point(73, 385);
+            this.dbambulance.Location = new System.Drawing.Point(73, 350);
             this.dbambulance.Name = "dbambulance";
             this.dbambulance.Size = new System.Drawing.Size(222, 48);
             this.dbambulance.TabIndex = 7;
@@ -103,29 +101,18 @@
             // 
             this.dbpayment.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.dbpayment.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dbpayment.Location = new System.Drawing.Point(73, 304);
+            this.dbpayment.Location = new System.Drawing.Point(73, 257);
             this.dbpayment.Name = "dbpayment";
             this.dbpayment.Size = new System.Drawing.Size(222, 48);
             this.dbpayment.TabIndex = 6;
             this.dbpayment.Text = "Payment";
             this.dbpayment.UseVisualStyleBackColor = true;
             // 
-            // dbappointment
-            // 
-            this.dbappointment.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.dbappointment.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dbappointment.Location = new System.Drawing.Point(73, 218);
-            this.dbappointment.Name = "dbappointment";
-            this.dbappointment.Size = new System.Drawing.Size(222, 48);
-            this.dbappointment.TabIndex = 5;
-            this.dbappointment.Text = "Appointment";
-            this.dbappointment.UseVisualStyleBackColor = true;
-            // 
             // bdnurse
             // 
             this.bdnurse.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.bdnurse.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bdnurse.Location = new System.Drawing.Point(73, 135);
+            this.bdnurse.Location = new System.Drawing.Point(73, 165);
             this.bdnurse.Name = "bdnurse";
             this.bdnurse.Size = new System.Drawing.Size(222, 48);
             this.bdnurse.TabIndex = 4;
@@ -136,7 +123,7 @@
             // 
             this.dbdctr.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.dbdctr.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dbdctr.Location = new System.Drawing.Point(73, 45);
+            this.dbdctr.Location = new System.Drawing.Point(73, 71);
             this.dbdctr.Name = "dbdctr";
             this.dbdctr.Size = new System.Drawing.Size(222, 48);
             this.dbdctr.TabIndex = 3;
@@ -170,7 +157,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button dbambulance;
         private System.Windows.Forms.Button dbpayment;
-        private System.Windows.Forms.Button dbappointment;
         private System.Windows.Forms.Button bdnurse;
         private System.Windows.Forms.Button dbdctr;
         private System.Windows.Forms.Button dbexit;

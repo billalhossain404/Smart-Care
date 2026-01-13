@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -13,6 +14,8 @@ namespace Smart_Care
 {
     public partial class doctor_assign : Form
     {
+
+        string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
         string conn = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=SmartBD;Integrated Security=True;TrustServerCertificate=True";
         public doctor_assign()
         {
@@ -36,8 +39,29 @@ namespace Smart_Care
             dexp.SelectedIndex = -1;
         }
 
+        public bool validate()
+        {
+            if (string.IsNullOrWhiteSpace(dfirstname.Text) ||
+                string.IsNullOrWhiteSpace(dlastnaeme.Text) ||
+                string.IsNullOrWhiteSpace(dctrpassword.Text) ||
+                string.IsNullOrWhiteSpace(spec.Text) ||
+                string.IsNullOrWhiteSpace(dmobile.Text) ||
+                string.IsNullOrWhiteSpace(daddress.Text) ||
+                string.IsNullOrWhiteSpace(dateTimePicker.Text) ||
+                string.IsNullOrWhiteSpace(dgender.Text) ||
+                string.IsNullOrWhiteSpace(dblood.Text) ||
+                string.IsNullOrWhiteSpace(dexp.Text) ||
+                Regex.IsMatch(demail.Text, pattern) == false)
+            {
+                return false;
+            }
+            return true;
+
+        }
+
         private void doctor_assign_Load(object sender, EventArgs e)
         {
+            LoadDoctors();
             dgender.Items.Add("Male");
             dgender.Items.Add("Female");
             dgender.Items.Add("Other");
@@ -97,7 +121,7 @@ namespace Smart_Care
             try
             {
 
-                SqlCommand cmd = new SqlCommand("INSERT INTO Doctors(Password, FirstName, LastName, DateOfBirth, Gender, BloodGroup, Speciality, ExperienceYears, Mobile, Email, Address) VALUES (@password, @FirstName, @LastName, @DateOfBirth, @Gender, @BloodGroup, @Speciality, @ExperienceYears, @Mobile, @Email, @Address)", con);
+                SqlCommand cmd = new SqlCommand("INSERT INTO Doctors(Password, FirstName, LastName, DateOfBirth, Gender, BloodGroup, Speciality, ExperienceYears, Mobile, Email, Address) VALUES (@Password, @FirstName, @LastName, @DateOfBirth, @Gender, @BloodGroup, @Speciality, @ExperienceYears, @Mobile, @Email, @Address)", con);
                
                 cmd.Parameters.AddWithValue("@Password", dctrpassword.Text);
                 cmd.Parameters.AddWithValue("@FirstName", dfirstname.Text);
@@ -111,12 +135,8 @@ namespace Smart_Care
                 cmd.Parameters.AddWithValue("@Email", demail.Text);
                 cmd.Parameters.AddWithValue("@Address", daddress.Text);
 
-                //int newDoctorId = (int)cmd.ExecuteScalar();
-                //dctrid.Text = newDoctorId.ToString();
 
                 cmd.ExecuteNonQuery();
-
-                //MessageBox.Show($"Doctor Saved Successfully ID: {newDoctorId}");
 
                 con.Close();
             }
@@ -141,8 +161,7 @@ namespace Smart_Care
                 {
                     string query = "DELETE FROM Doctors WHERE DoctorId=@Id";
                     SqlCommand cmd = new SqlCommand(query, con);
-                    cmd.Parameters.AddWithValue("@Id", dctrid.Text);
-
+                    cmd.Parameters.AddWithValue("@Id", Convert.ToInt32(dctrid.Text));
                     con.Open();
                     cmd.ExecuteNonQuery();
                 }
@@ -179,14 +198,42 @@ namespace Smart_Care
 
         private void update_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(conn);
-            string query = "SELECT * FROM Doctors";
-            SqlDataAdapter da = new SqlDataAdapter(query, con);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-
-            doctordatagrid.AutoGenerateColumns = true;
-            doctordatagrid.DataSource = dt;
+            if (validate())
+            {
+                try
+                {
+                    string connectionString = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=SmartBD;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+                    SqlConnection con = new SqlConnection(connectionString);
+                    con.Open();
+                    string query = "UPDATE Doctors SET Password=@Password, FirstName=@FirstName, LastName = @LastName, DateOfBirth = @DateOfBirth, Gender = @Gender, BloodGroup=@BloodGroup, Speciality = @Speciality, ExperienceYears=@ExperienceYears,Mobile =@Mobile, Email=@Email,Address=@Address WHERE DoctorId=@DoctorId ";
+                    SqlCommand sq3 = new SqlCommand(query, con);
+                    sq3.Parameters.AddWithValue("@DoctorId", Convert.ToInt32(dctrid.Text));
+                    sq3.Parameters.AddWithValue("@Password", dctrpassword.Text);
+                    sq3.Parameters.AddWithValue("@FirstName", dfirstname.Text);
+                    sq3.Parameters.AddWithValue("@LastName", dlastnaeme.Text);
+                    sq3.Parameters.AddWithValue("@DateOfBirth", dateTimePicker.Value.Date);
+                    sq3.Parameters.AddWithValue("@Gender", dgender.Text);
+                    sq3.Parameters.AddWithValue("@BloodGroup", dblood.Text);
+                    sq3.Parameters.AddWithValue("@Speciality", spec.Text);
+                    sq3.Parameters.AddWithValue("@ExperienceYears", Convert.ToInt32(dexp.Text));
+                    sq3.Parameters.AddWithValue("@Mobile", dmobile.Text);
+                    sq3.Parameters.AddWithValue("@Email", demail.Text);
+                    sq3.Parameters.AddWithValue("@Address", daddress.Text);
+                    sq3.ExecuteNonQuery();
+                    con.Close();
+                    MessageBox.Show("Update Successfully", "SUCCESS", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    clearAll();
+                    LoadDoctors();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Update Error!!", "ERROR");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Update Error!!", "ERROR");
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
