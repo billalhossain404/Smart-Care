@@ -63,6 +63,7 @@
             this.Mnurse.TabIndex = 12;
             this.Mnurse.Text = "Nurse";
             this.Mnurse.UseVisualStyleBackColor = false;
+            this.Mnurse.Click += new System.EventHandler(this.Mnurse_Click);
             // 
             // pictureBox2
             // 
@@ -153,6 +154,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Smartcare";
             this.Text = "Smart-Care";
+            this.Load += new System.EventHandler(this.Smartcare_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -58,7 +58,7 @@
             this.book.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.book.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.book.ForeColor = System.Drawing.Color.White;
-            this.book.Location = new System.Drawing.Point(771, 517);
+            this.book.Location = new System.Drawing.Point(841, 632);
             this.book.Name = "book";
             this.book.Size = new System.Drawing.Size(266, 49);
             this.book.TabIndex = 59;
@@ -72,7 +72,7 @@
             this.viewprofile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewprofile.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewprofile.ForeColor = System.Drawing.Color.White;
-            this.viewprofile.Location = new System.Drawing.Point(422, 517);
+            this.viewprofile.Location = new System.Drawing.Point(314, 632);
             this.viewprofile.Name = "viewprofile";
             this.viewprofile.Size = new System.Drawing.Size(147, 49);
             this.viewprofile.TabIndex = 58;
@@ -97,12 +97,13 @@
             // doctordatagrid
             // 
             this.doctordatagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.doctordatagrid.Location = new System.Drawing.Point(215, 148);
+            this.doctordatagrid.Location = new System.Drawing.Point(86, 139);
             this.doctordatagrid.Name = "doctordatagrid";
             this.doctordatagrid.RowHeadersWidth = 51;
             this.doctordatagrid.RowTemplate.Height = 24;
-            this.doctordatagrid.Size = new System.Drawing.Size(957, 343);
+            this.doctordatagrid.Size = new System.Drawing.Size(1204, 464);
             this.doctordatagrid.TabIndex = 56;
+            this.doctordatagrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.doctordatagrid_CellContentClick);
             // 
             // dctrserchbox
             // 

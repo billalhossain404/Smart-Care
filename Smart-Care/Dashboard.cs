@@ -34,12 +34,37 @@ namespace Smart_Care
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Smartcare bck = new Smartcare();
+            bck.Show();
+            this.Hide();
         }
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void bdnurse_Click(object sender, EventArgs e)
+        {
+            Add_Nurse nrs = new Add_Nurse();
+            nrs.Show();
+            this.Hide();
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SearchEmployeeForm emp = new SearchEmployeeForm();
+            emp.Show();
+            this.Hide();
+        }
+
+        private void dbambulance_Click(object sender, EventArgs e)
+        {
+            Ambulance ambu = new Ambulance();
+            ambu.Show();
+            this.Hide();
         }
     }
 }

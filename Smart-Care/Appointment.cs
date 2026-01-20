@@ -23,5 +23,10 @@ namespace Smart_Care
             hm.Show();
             this.Close();
         }
+
+        private void Appointment_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -49,6 +49,7 @@
             this.Controls.Add(this.back);
             this.Name = "Appointment";
             this.Text = "Appointment";
+            this.Load += new System.EventHandler(this.Appointment_Load);
             this.ResumeLayout(false);
 
         }

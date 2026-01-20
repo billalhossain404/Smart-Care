@@ -13,6 +13,7 @@ namespace Smart_Care
 {
     public partial class Homepage : Form
     {
+
         public Homepage()
         {
             InitializeComponent();
@@ -25,38 +26,66 @@ namespace Smart_Care
             this.Hide();
         }
 
-        private void search_Click(object sender, EventArgs e)
+        private readonly string cs =
+    @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
+
+        private void LoadDoctors(string firstNameFilter = null)
         {
             try
             {
-                string connectionString = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=SmartBD;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
-                SqlConnection con = new SqlConnection(connectionString);
-                con.Open();
-
-                string query = "SELECT DoctorId ,  FirstName  + ' ' + LastName AS DoctorName,    Speciality,    ExperienceYears FROM Doctors WHERE FirstName LIKE @FirstName";
-                SqlCommand sq2 = new SqlCommand(query, con);
-                sq2.Parameters.AddWithValue("@FirstName", dctrserchbox.Text.Trim() + "%");
-
-                SqlDataAdapter sda = new SqlDataAdapter(sq2);
-                DataTable dt = new DataTable();
-                sda.Fill(dt);
-
-                if (dt.Rows.Count > 0)
+                using (SqlConnection con = new SqlConnection(cs))
                 {
-                    doctordatagrid.DataSource = dt;
-                }
-                else
-                {
-                    MessageBox.Show("No Matching Data Found");
-                }
+                    con.Open();
 
-                con.Close();
-                dctrserchbox.Clear();
+                    string query = @"
+                SELECT 
+                    DoctorId,
+                    FirstName + ' ' + LastName AS DoctorName,
+                    Speciality,
+                    ExperienceYears
+                FROM Doctors
+                WHERE (@FirstName IS NULL OR FirstName LIKE @FirstName)
+                ORDER BY DoctorId DESC";
+
+                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    {
+                        if (string.IsNullOrWhiteSpace(firstNameFilter))
+                            cmd.Parameters.AddWithValue("@FirstName", DBNull.Value);
+                        else
+                            cmd.Parameters.AddWithValue("@FirstName", firstNameFilter.Trim() + "%");
+
+                        SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                        DataTable dt = new DataTable();
+                        sda.Fill(dt);
+
+                        doctordatagrid.AutoGenerateColumns = true;
+                        doctordatagrid.DataSource = dt;
+                    }
+                }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Database Error!! " + ex.Message, "ERROR");
             }
+        }
+
+        private void Homepage_Activated(object sender, EventArgs e)
+        {
+            LoadDoctors();
+        }
+
+
+
+        private void search_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(dctrserchbox.Text))
+            {
+                LoadDoctors();   // empty হলে সব দেখাবে
+                return;
+            }
+
+            LoadDoctors(dctrserchbox.Text);
+            dctrserchbox.Clear();
 
         }
 
@@ -72,11 +101,11 @@ namespace Smart_Care
 
                 int doctorId = Convert.ToInt32(doctordatagrid.SelectedRows[0].Cells["DoctorId"].Value);
 
-                string connectionString = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=SmartBD;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+                string connectionString = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
                 SqlConnection con = new SqlConnection(connectionString);
                 con.Open();
 
-                string query = @" SELECT  DoctorId,  FirstName,  LastName, Gender,   BloodGroup,  Speciality, ExperienceYears,  Mobile,  Email,  Address,  DateOfBirth FROM Doctors  WHERE DoctorId = @DoctorId";
+                string query = @" SELECT  DoctorId,  FirstName + ' ' + LastName AS DoctorName, Gender,   BloodGroup,  Speciality, ExperienceYears,  Mobile,  Email,  Address,  DateOfBirth FROM Doctors  WHERE DoctorId = @DoctorId";
 
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@DoctorId", doctorId);
@@ -105,14 +134,20 @@ namespace Smart_Care
 
         private void Homepage_Load(object sender, EventArgs e)
         {
-
+            LoadDoctors();
         }
+
 
         private void book_Click(object sender, EventArgs e)
         {
-            Appointment ap = new Appointment();
-            ap.Show();
-            this.Close();
+            Payment py = new Payment();
+            py.Show();
+            this.Hide();
+        }
+
+        private void doctordatagrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

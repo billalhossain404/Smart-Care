@@ -30,7 +30,7 @@ namespace Smart_Care
                     return;
                 }
 
-                string cs = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=SmartBD;Integrated Security=True;TrustServerCertificate=True";
+                string cs = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
 
                 using (SqlConnection con = new SqlConnection(cs))
                 {

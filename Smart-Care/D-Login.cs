@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace Smart_Care
 {
@@ -20,7 +21,10 @@ namespace Smart_Care
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Smartcare bck = new Smartcare();
+            bck.Show();
+            this.Hide();
+
         }
 
         private void aloginbtn_Click(object sender, EventArgs e)
@@ -34,7 +38,7 @@ namespace Smart_Care
                     return;
                 }
 
-                string cs = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=SmartBD;Integrated Security=True;TrustServerCertificate=True";
+                string cs = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
 
                 using (SqlConnection con = new SqlConnection(cs))
                 {

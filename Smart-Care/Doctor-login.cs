@@ -13,7 +13,7 @@ namespace Smart_Care
 {
     public partial class Doctor_login : Form
     {
-        string conn = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=SmartBD;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        string conn = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
 
         int loggedDoctorId; 
         public Doctor_login(int doctorId)

@@ -68,7 +68,7 @@
             this.dctrexit.Name = "dctrexit";
             this.dctrexit.Size = new System.Drawing.Size(116, 53);
             this.dctrexit.TabIndex = 22;
-            this.dctrexit.Text = "Exit";
+            this.dctrexit.Text = "Back";
             this.dctrexit.UseVisualStyleBackColor = false;
             this.dctrexit.Click += new System.EventHandler(this.button2_Click);
             // 

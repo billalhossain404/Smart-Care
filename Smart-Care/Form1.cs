@@ -42,5 +42,17 @@ namespace Smart_Care
             bck.Show();
             this.Hide();
         }
+
+        private void Smartcare_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Mnurse_Click(object sender, EventArgs e)
+        {
+            Nurse_login nrslog = new Nurse_login();
+            nrslog.Show();
+            this.Hide();
+        }
     }
 }
