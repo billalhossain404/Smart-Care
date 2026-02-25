@@ -30,7 +30,7 @@ namespace Smart_Care
         {
             try
             {
-                string connectionString = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
+                string connectionString = @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
                 SqlConnection con = new SqlConnection(connectionString);
                 con.Open();
                 SqlDataAdapter sda = new SqlDataAdapter("SELECT ISNULL(MAX(CAST(AdminId AS INT)),0)+1 FROM Admin_assign", con);
@@ -85,7 +85,7 @@ namespace Smart_Care
                 try
                 {
                     getuserid();
-                    SqlConnection con = new SqlConnection(@"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True");
+                    SqlConnection con = new SqlConnection(@"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True");
                     con.Open();
                     SqlCommand sq2 = new SqlCommand("INSERT INTO Admin_assign (AdName, AdPassword, Age, Email) VALUES (@AdName, @AdPassword, @Age, @Email)", con);
                     // sq2.Parameters.AddWithValue("@ID", int.Parse(id.Text));

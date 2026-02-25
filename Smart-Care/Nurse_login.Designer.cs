@@ -59,6 +59,7 @@
             this.nurselogin.Name = "nurselogin";
             this.nurselogin.Size = new System.Drawing.Size(701, 731);
             this.nurselogin.TabIndex = 11;
+            this.nurselogin.Paint += new System.Windows.Forms.PaintEventHandler(this.nurselogin_Paint);
             // 
             // button3
             // 

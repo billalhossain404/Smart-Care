@@ -27,7 +27,7 @@ namespace Smart_Care
         }
 
         private readonly string cs =
-    @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
+    @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
 
         private void LoadDoctors(string firstNameFilter = null)
         {
@@ -101,7 +101,7 @@ namespace Smart_Care
 
                 int doctorId = Convert.ToInt32(doctordatagrid.SelectedRows[0].Cells["DoctorId"].Value);
 
-                string connectionString = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
+                string connectionString = @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
                 SqlConnection con = new SqlConnection(connectionString);
                 con.Open();
 

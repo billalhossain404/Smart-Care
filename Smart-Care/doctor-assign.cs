@@ -16,7 +16,7 @@ namespace Smart_Care
     {
 
         string pattern = "^([0-9a-zA-Z]([-\\.\\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,9})$";
-        string conn = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
+        string conn = @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
         public doctor_assign()
         {
             InitializeComponent();
@@ -202,7 +202,7 @@ namespace Smart_Care
             {
                 try
                 {
-                    string connectionString = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
+                    string connectionString = @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
                     SqlConnection con = new SqlConnection(connectionString);
                     con.Open();
                     string query = "UPDATE Doctors SET Password=@Password, FirstName=@FirstName, LastName = @LastName, DateOfBirth = @DateOfBirth, Gender = @Gender, BloodGroup=@BloodGroup, Speciality = @Speciality, ExperienceYears=@ExperienceYears,Mobile =@Mobile, Email=@Email,Address=@Address WHERE DoctorId=@DoctorId ";

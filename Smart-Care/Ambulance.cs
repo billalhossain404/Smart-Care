@@ -33,5 +33,10 @@ namespace Smart_Care
             bck.Show();
             this.Hide();
         }
+
+        private void Ambulance_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

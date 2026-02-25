@@ -50,7 +50,7 @@ namespace Smart_Care
                 string designation = comboBox3.SelectedItem.ToString();
                 int experience = int.Parse(textBox1.Text);
 
-                string connectionString = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+                string connectionString = @"Data Source=Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
 
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {

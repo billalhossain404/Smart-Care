@@ -37,7 +37,7 @@ namespace Smart_Care
             }
 
             // 🔹 DB Connection String
-            string connStr = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+            string connStr = @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
 
             using (SqlConnection con = new SqlConnection(connStr))
             {
@@ -80,6 +80,11 @@ namespace Smart_Care
                 textBox2.UseSystemPasswordChar = false; // Show Password
             else
                 textBox2.UseSystemPasswordChar = true; // Hide Password
+        }
+
+        private void nurselogin_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

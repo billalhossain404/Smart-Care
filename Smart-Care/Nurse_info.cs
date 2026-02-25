@@ -36,11 +36,11 @@ namespace Smart_Care
 
         private void LoadNurseData()
         {
-            // 🌟 Get Inputs
+            
             string firstName = textBox10.Text.Trim();
             string password = textBox11.Text.Trim();
 
-            // 🌟 Validation checks
+           
             if (string.IsNullOrWhiteSpace(firstName))
             {
                 MessageBox.Show("Please enter First Name!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -53,12 +53,12 @@ namespace Smart_Care
                 return;
             }
 
-            // 🌟 DB Connection String
-            string connStr = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+            
+            string connStr = @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
 
             using (SqlConnection con = new SqlConnection(connStr))
             {
-                // 🌟 SQL query
+                
                 string query = "SELECT FirstName, LastName, Email, Phone, Gender, Department, Shift, Designation, Experience FROM nurse_info WHERE FirstName=@FirstName AND Password=@Password";
 
                 using (SqlCommand cmd = new SqlCommand(query, con))
@@ -73,7 +73,7 @@ namespace Smart_Care
 
                         if (reader.Read())
                         {
-                            // 🌟 Display data in textboxes
+                            
                             textBox1.Text = reader["FirstName"].ToString();
                             textBox2.Text = reader["LastName"].ToString();
                             textBox3.Text = reader["Email"].ToString();
@@ -84,7 +84,7 @@ namespace Smart_Care
                             textBox8.Text = reader["Designation"].ToString();
                             textBox9.Text = reader["Experience"].ToString();
 
-                            // 🌟 Welcome text update
+                           
                             // label1 = static “Welcome”
                             // label13 = dynamic last name
                             label13.Visible = true;
@@ -194,7 +194,7 @@ namespace Smart_Care
                 return;
             }
 
-            string connStr = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+            string connStr = @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
 
             using (SqlConnection con = new SqlConnection(connStr))
             {
@@ -214,7 +214,7 @@ namespace Smart_Care
                         {
                             MessageBox.Show($"{selectedField} updated successfully!", "Success");
 
-                            // 🔹 If password was updated, set textbox11 to new password
+                            // If password was updated, set textbox11 to new password
                             if (selectedField == "Password")
                                 textBox11.Text = newValue;
 

@@ -195,6 +195,7 @@
             this.Controls.Add(this.panel2);
             this.Name = "bill_summary";
             this.Text = "bill_summary";
+            this.Load += new System.EventHandler(this.bill_summary_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

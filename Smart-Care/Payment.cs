@@ -30,5 +30,15 @@ namespace Smart_Care
             bl.Show();
             this.Hide();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Payment_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

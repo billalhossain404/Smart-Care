@@ -63,7 +63,7 @@ namespace Smart_Care
 
             try
             {
-                string connStr = @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+                string connStr = @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
                 SqlConnection con = new SqlConnection(connStr);
                 con.Open();
 

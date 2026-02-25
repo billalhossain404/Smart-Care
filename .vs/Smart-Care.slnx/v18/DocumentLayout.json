@@ -1,62 +1,154 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\infob\\Desktop\\SmartDB\\",
+  "WorkspaceRootPath": "C:\\Users\\infob\\Downloads\\SmartDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\desktop\\smartdb\\smart-care\\bill summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\bill summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\d-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\d-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\doctor-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\doctor-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\doctor-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\doctor-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\bill summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\bill summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\nurse_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\nurse_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\nurse_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\nurse_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\nurse_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\nurse_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\nurse_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\nurse_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\nurse_dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\nurse_dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\nurse_dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\nurse_dashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\employee details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\employee details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\employee details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\employee details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\doctor-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\doctor-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\doctor-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\doctor-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\doctor-assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\doctor-assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\doctor-assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\doctor-assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\d-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\d-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\d-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\d-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\bill summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\bill summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\bill summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\bill summary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|C:\\Users\\infob\\Desktop\\SmartDB\\smart-care\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\ambulance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\all employees list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\all employees list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\all employees list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\all employees list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\admin-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\admin-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\admin-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\admin-login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\admin-account-create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\admin-account-create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\admin-account-create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\admin-account-create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\add_nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\add_nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|c:\\users\\infob\\downloads\\smartdb\\smart-care\\add_nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6307EE28-B595-4ED7-94CA-FABDE5F31156}|Smart-Care\\Smart-Care.csproj|solutionrelative:smart-care\\add_nurse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,168 +158,470 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Doctor-login.cs",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Doctor-login.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Doctor-login.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Doctor-login.cs",
-              "RelativeToolTip": "Smart-Care\\Doctor-login.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAA2wEQAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Program.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Program.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Program.cs",
+              "RelativeToolTip": "Smart-Care\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:10:09.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Doctor-login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Doctor-login.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Doctor-login.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Doctor-login.cs [Design]",
-              "RelativeToolTip": "Smart-Care\\Doctor-login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:10:05.383Z"
+              "WhenOpened": "2026-02-25T09:56:51.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "D-Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\D-Login.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\D-Login.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\D-Login.cs [Design]",
-              "RelativeToolTip": "Smart-Care\\D-Login.cs [Design]",
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Payment.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Payment.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Payment.cs",
+              "RelativeToolTip": "Smart-Care\\Payment.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:09:59.591Z"
+              "WhenOpened": "2026-02-25T09:56:46.962Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "bill summary.cs",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\bill summary.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\bill summary.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\bill summary.cs",
-              "RelativeToolTip": "Smart-Care\\bill summary.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA2wBMAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Payment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Payment.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Payment.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Payment.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Payment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:09:20.706Z",
+              "WhenOpened": "2026-02-25T09:56:45.968Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nurse_login.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_login.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Nurse_login.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_login.cs",
+              "RelativeToolTip": "Smart-Care\\Nurse_login.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAACcAAACuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:56:32.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Nurse_login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_login.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Nurse_login.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_login.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Nurse_login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:56:30.64Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Nurse_info.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_info.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Nurse_info.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_info.cs",
+              "RelativeToolTip": "Smart-Care\\Nurse_info.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAAAMQAAACuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:56:00.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Form1.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Form1.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Form1.cs [Design]",
-              "RelativeToolTip": "Smart-Care\\Form1.cs [Design]",
+              "Title": "Nurse_info.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_info.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Nurse_info.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_info.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Nurse_info.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:08:51.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Homepage.cs",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Homepage.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Homepage.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Homepage.cs",
-              "RelativeToolTip": "Smart-Care\\Homepage.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAEwJAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:05:32.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Homepage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Homepage.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Homepage.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Homepage.cs [Design]",
-              "RelativeToolTip": "Smart-Care\\Homepage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:05:31.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Payment.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Payment.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Payment.cs",
-              "RelativeToolTip": "Smart-Care\\Payment.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA0wBcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:05:21.728Z"
+              "WhenOpened": "2026-02-25T09:55:59.73Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "bill summary.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\bill summary.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\bill summary.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\bill summary.cs [Design]",
-              "RelativeToolTip": "Smart-Care\\bill summary.cs [Design]",
+              "Title": "Nurse_dashbord.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_dashbord.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Nurse_dashbord.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_dashbord.cs",
+              "RelativeToolTip": "Smart-Care\\Nurse_dashbord.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:03:50.909Z"
+              "WhenOpened": "2026-02-25T09:55:38.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Nurse_dashbord.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_dashbord.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Nurse_dashbord.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Nurse_dashbord.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Nurse_dashbord.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:55:37.315Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Homepage.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Homepage.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Homepage.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Homepage.cs",
+              "RelativeToolTip": "Smart-Care\\Homepage.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAUwGcAAAC7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:55:10.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Payment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Payment.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Payment.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Payment.cs [Design]",
-              "RelativeToolTip": "Smart-Care\\Payment.cs [Design]",
+              "Title": "Homepage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Homepage.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Homepage.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Homepage.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Homepage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T04:02:42.579Z"
+              "WhenOpened": "2026-02-25T09:55:09.427Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Dashboard.cs",
-              "RelativeToolTip": "Smart-Care\\Dashboard.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwDcAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Form1.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Form1.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Form1.cs",
+              "RelativeToolTip": "Smart-Care\\Form1.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA0wC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T03:23:06.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Dashboard.cs [Design]",
-              "RelativeToolTip": "Smart-Care\\Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T03:23:04.542Z"
+              "WhenOpened": "2026-02-25T09:55:05.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Ambulance.cs",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Ambulance.cs",
-              "RelativeDocumentMoniker": "Smart-Care\\Ambulance.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Ambulance.cs",
-              "RelativeToolTip": "Smart-Care\\Ambulance.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA9wCUAAAAAAAAAAAAAAA==",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Form1.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Form1.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Form1.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T03:20:52.132Z"
+              "WhenOpened": "2026-02-25T09:55:04.505Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Ambulance.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Ambulance.cs",
+              "Title": "Employee Details.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Employee Details.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Employee Details.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Employee Details.cs",
+              "RelativeToolTip": "Smart-Care\\Employee Details.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAFkAAACyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:54:33.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Employee Details.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Employee Details.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Employee Details.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Employee Details.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Employee Details.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:54:32.406Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Doctor-login.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Doctor-login.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Doctor-login.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Doctor-login.cs",
+              "RelativeToolTip": "Smart-Care\\Doctor-login.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAuwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:54:10.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Doctor-login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Doctor-login.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Doctor-login.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Doctor-login.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Doctor-login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:54:09.306Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "doctor-assign.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\doctor-assign.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\doctor-assign.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\doctor-assign.cs",
+              "RelativeToolTip": "Smart-Care\\doctor-assign.cs",
+              "ViewState": "AgIAAA8BAAAAAAAAAAA0wMwAAAC/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:38.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "doctor-assign.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\doctor-assign.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\doctor-assign.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\doctor-assign.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\doctor-assign.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:36.996Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Dashboard.cs",
+              "RelativeToolTip": "Smart-Care\\Dashboard.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:32.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:31.316Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "D-Login.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\D-Login.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\D-Login.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\D-Login.cs",
+              "RelativeToolTip": "Smart-Care\\D-Login.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwCgAAACtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:17.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "D-Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\D-Login.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\D-Login.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\D-Login.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\D-Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:16Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "bill summary.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\bill summary.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\bill summary.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\bill summary.cs",
+              "RelativeToolTip": "Smart-Care\\bill summary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:13.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "bill summary.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\bill summary.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\bill summary.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\bill summary.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\bill summary.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:12.746Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Appointment.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Appointment.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Appointment.cs",
+              "RelativeToolTip": "Smart-Care\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:10.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Appointment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Appointment.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Appointment.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Appointment.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Appointment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:09.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Ambulance.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Ambulance.cs",
               "RelativeDocumentMoniker": "Smart-Care\\Ambulance.cs",
-              "ToolTip": "C:\\Users\\infob\\Desktop\\SmartDB\\Smart-Care\\Ambulance.cs [Design]",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Ambulance.cs",
+              "RelativeToolTip": "Smart-Care\\Ambulance.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:53:05.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Ambulance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Ambulance.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Ambulance.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Ambulance.cs [Design]",
               "RelativeToolTip": "Smart-Care\\Ambulance.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T03:19:48.544Z"
+              "WhenOpened": "2026-02-25T09:53:04.828Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "All Employees List.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\All Employees List.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\All Employees List.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\All Employees List.cs",
+              "RelativeToolTip": "Smart-Care\\All Employees List.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABcAAAC3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:52:54.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "All Employees List.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\All Employees List.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\All Employees List.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\All Employees List.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\All Employees List.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:52:53.443Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "admin-login.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\admin-login.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\admin-login.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\admin-login.cs",
+              "RelativeToolTip": "Smart-Care\\admin-login.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwCAAAACtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:52:37.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "admin-login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\admin-login.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\admin-login.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\admin-login.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\admin-login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:52:36.624Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "admin-account-create.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\admin-account-create.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\admin-account-create.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\admin-account-create.cs",
+              "RelativeToolTip": "Smart-Care\\admin-account-create.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAUwFcAAADLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:52:12.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "admin-account-create.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\admin-account-create.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\admin-account-create.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\admin-account-create.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\admin-account-create.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:52:11.112Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Add_Nurse.cs",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Add_Nurse.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Add_Nurse.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Add_Nurse.cs",
+              "RelativeToolTip": "Smart-Care\\Add_Nurse.cs",
+              "ViewState": "AgIAAB4BAAAAAAAAAAA0wDQAAADHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:51:34.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Add_Nurse.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Add_Nurse.cs",
+              "RelativeDocumentMoniker": "Smart-Care\\Add_Nurse.cs",
+              "ToolTip": "C:\\Users\\infob\\Downloads\\SmartDB\\Smart-Care\\Add_Nurse.cs [Design]",
+              "RelativeToolTip": "Smart-Care\\Add_Nurse.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T09:51:33.845Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

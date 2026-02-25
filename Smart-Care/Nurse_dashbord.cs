@@ -18,7 +18,7 @@ namespace Smart_Care
         }
 
         private readonly string cs =
-    @"Data Source=BILLAL\SQLEXPRESS;Initial Catalog=FinalDB;Integrated Security=True;TrustServerCertificate=True";
+    @"Data Source=BILLAL-HOSSAIN\SQLEXPRESS;Initial Catalog=SmartCare;Integrated Security=True;Pooling=False;Encrypt=True;TrustServerCertificate=True";
 
         private void LoadDoctorsForNurse()
         {
@@ -71,6 +71,11 @@ namespace Smart_Care
             Nurse_login logout = new Nurse_login();
             logout.Show();
             this.Hide();
+        }
+
+        private void See_Doctor_List_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

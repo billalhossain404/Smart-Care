@@ -21,5 +21,10 @@ namespace Smart_Care
         {
             Application.Exit();
         }
+
+        private void bill_summary_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
