@@ -11,7 +11,7 @@
 [![Windows Forms](https://img.shields.io/badge/Windows_Forms-Desktop-0078D4?style=flat-square)](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/)
 [![SQL Server](https://img.shields.io/badge/SQL_Server-Database-CC2927?style=flat-square)](https://www.microsoft.com/en-us/sql-server)
 
-[Overview](#-project-overview) • [Features](#-key-features) • [Screenshots](#-screenshots) • [Installation](#-run-locally) • [Links](#-project-links)
+[Overview](#-project-overview) • [Features](#-key-features) • [Installation](#-run-locally) • [Links](#-project-links)
 
 </div>
 
@@ -32,23 +32,6 @@
 - 👩‍⚕️ **Nurse registration and dashboard** with staff-related information.
 - 👥 **Employee management** screens for searching and viewing employee records.
 - 📅 **Additional UI modules** for appointments, billing/payment, and ambulance services (some functionality is incomplete).
-
-## 📸 Screenshots
-
-### Dashboard
-
-<p align="center">
-  <img src="./Dashboard.jpg" alt="Smart Care dashboard screenshot" width="85%" />
-</p>
-
-### Admin Login & Doctor Portal
-
-<p align="center">
-  <img src="./Admin%20Login.jpg" alt="Admin login screen" width="47%" />
-  <img src="./doctr-portal.png" alt="Doctor portal screen" width="47%" />
-</p>
-
-> These images are already stored in the repository root, so no extra screenshots need to be uploaded.
 
 ## 🛠️ Main Technologies
 
@@ -133,9 +116,6 @@ Smart-Care/
 │   ├── Payment.cs            # Payment screen
 │   ├── App.config            # Application configuration
 │   └── ...                   # Other forms and resources
-├── Dashboard.jpg             # Project screenshot
-├── Admin Login.jpg           # Project screenshot
-└── doctr-portal.png          # Project screenshot
 ```
 
 ## 🔗 Project Links
